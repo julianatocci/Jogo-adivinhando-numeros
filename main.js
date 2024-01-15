@@ -28,5 +28,6 @@ btnTry.addEventListener('click', handleTryClick)
 btnReset.addEventListener('click', function () {
   screen1.classList.remove('hide')
   screen2.classList.add('hide')
+  randomNumber = Math.round(Math.random() * 10)
   xAttempts = 1
 })
